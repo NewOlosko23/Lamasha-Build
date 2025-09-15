@@ -1,0 +1,30 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://lamasha-daycare.co.ke/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
+
+# Allow all search engines to access all content
+Disallow: /admin/
+Disallow: /dashboard/
+Disallow: /login/
+Disallow: /api/
+Disallow: /*.json$
+Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /.env
+
+# Allow important pages
+Allow: /
+Allow: /programs
+Allow: /about
+Allow: /gallery
+Allow: /contact
+Allow: /enroll
+Allow: /tour
+
+# Host declaration
+Host: https://lamasha-daycare.co.ke
