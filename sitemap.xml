@@ -60,13 +60,22 @@
     <priority>0.7</priority>
   </url>
   
-  <!-- Tour Page -->
+  <!-- Privacy Policy Page -->
   <url>
-    <loc>https://lamasha-daycare.co.ke/tour</loc>
+    <loc>https://lamasha-daycare.co.ke/privacy-policy</loc>
     <lastmod>2025-01-27</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
   </url>
+  
+  <!-- Terms & Conditions Page -->
+  <url>
+    <loc>https://lamasha-daycare.co.ke/terms-conditions</loc>
+    <lastmod>2025-01-27</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  
   
   <!-- Program Sections -->
   <url>

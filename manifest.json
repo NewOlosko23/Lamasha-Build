@@ -55,18 +55,6 @@
       ]
     },
     {
-      "name": "Book a Tour",
-      "short_name": "Tour",
-      "description": "Schedule a visit to our daycare facility",
-      "url": "/tour",
-      "icons": [
-        {
-          "src": "/logo.png",
-          "sizes": "96x96"
-        }
-      ]
-    },
-    {
       "name": "Parent Resources",
       "short_name": "Resources",
       "description": "Access handbooks and important documents",
