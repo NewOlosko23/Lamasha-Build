@@ -1,0 +1,14 @@
+# PDF files
+/*.pdf
+  Content-Type: application/pdf
+  Content-Disposition: attachment
+
+# Prevent access to .txt files
+/LAMASHA DAYCARE HANDBOOK.txt
+  X-Robots-Tag: noindex
+
+# Security headers
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  X-XSS-Protection: 1; mode=block
