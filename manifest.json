@@ -1,0 +1,96 @@
+{
+  "name": "Lamasha Daycare - Safe Hands, Happy Hearts",
+  "short_name": "Lamasha Daycare",
+  "description": "Premium childcare services with play-based curriculum, nutritious meals, and nurturing environment for children ages 0-3 years.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ec4899",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["education", "lifestyle", "family"],
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo.png", 
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/assets/1.jpeg",
+      "sizes": "1280x720",
+      "type": "image/jpeg",
+      "form_factor": "wide",
+      "label": "Lamasha Daycare Homepage"
+    },
+    {
+      "src": "/assets/2.jpeg",
+      "sizes": "750x1334", 
+      "type": "image/jpeg",
+      "form_factor": "narrow",
+      "label": "Lamasha Daycare Mobile View"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Enroll Your Child",
+      "short_name": "Enroll",
+      "description": "Start the enrollment process for your child",
+      "url": "/enroll",
+      "icons": [
+        {
+          "src": "/logo.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Book a Tour",
+      "short_name": "Tour",
+      "description": "Schedule a visit to our daycare facility",
+      "url": "/tour",
+      "icons": [
+        {
+          "src": "/logo.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Parent Resources",
+      "short_name": "Resources",
+      "description": "Access handbooks and important documents",
+      "url": "/parent-resources",
+      "icons": [
+        {
+          "src": "/logo.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Contact Us",
+      "short_name": "Contact",
+      "description": "Get in touch with our team",
+      "url": "/contact",
+      "icons": [
+        {
+          "src": "/logo.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}
