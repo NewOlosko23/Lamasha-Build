@@ -1,0 +1,32 @@
+# React Router / Vite support for cPanel hosting
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Serve existing files or directories if they exist
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # Redirect all other requests to index.html (React Router support)
+  RewriteRule ^ index.html [L]
+</IfModule>
+
+# Security headers
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "DENY"
+  Header always set X-XSS-Protection "1; mode=block"
+</IfModule>
+
+# Prevent indexing or access to the handbook
+<Files "LAMASHA DAYCARE HANDBOOK.txt">
+  Header set X-Robots-Tag "noindex"
+  Require all denied
+</Files>
+
+# Force PDF downloads
+<FilesMatch "\.pdf$">
+  ForceType application/pdf
+  Header set Content-Disposition attachment
+</FilesMatch>
